@@ -1,0 +1,1 @@
+@include('v3.mobile.product.carousel')

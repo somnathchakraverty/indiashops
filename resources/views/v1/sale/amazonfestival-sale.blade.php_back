@@ -1,0 +1,90 @@
+<?php
+  $cur_url = Request::url();
+  if( empty( $c_name ) )
+   $c_name = "";
+?>
+@if ( !isset($ajax) )
+   @extends('v1.layouts.master')
+   @section('meta')
+      <link rel="canonical" href="{{Request::URL()}}"/>
+      <meta name="keywords" content="amazon, Online Shopping, online mobile shopping ,phones, smartphones, The Great Indian Festival Sale, offers">
+      <meta name="news_keywords" content="amazon, Online Shopping, online mobile shopping ,phones, smartphones, The Great Indian Festival Sale, offers"/>
+      <meta name="taboola:title" content="amazon, Online Shopping, online mobile shopping ,phones, smartphones, The Great Indian Festival Sale, offers | Flipkart.com only on Indiashopps.com"/>
+   @endsection
+   @section('title')
+      <title>{{$title}}</title>
+   @endsection
+   @section('description')
+      <meta name="description" content=" Amazon Great Indian Festival Sale, Oct 1-5, 10% additional instant discount on HDFC Credit & Debit Cards. Discount Coupons and Vouchers also available. Cash on delivery at India's very own favourite Online Shop - Amazon.in only at Indiashopps.com"/>
+   @endsection
+   @section('content')
+   <div class="container-fliud">
+  <img class="img-responsive" width="100%" src="images/v1/amazon_img/amazon_great_festival_slider_.jpg" alt="amazon great india festival sale" />
+  <div class="amazon_great_bg">
+  <!--==============All product=============--> 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <img class="img-responsive" width="100%" src="images/v1/amazon_img/amazon_sale.jpg" alt="amazon great india festival offers" />       
+        </div>  
+      </div>  
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <a href="#">
+            <img class="img-responsive" width="100%" src="images/v1/amazon_img/sale_img_1.jpg" alt="headphones amazon great india festival sale" />
+          </a>
+        </div>    
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <a href="#">
+            <img class="img-responsive" width="100%" src="images/v1/amazon_img/sale_img_2.jpg" alt="books amazon great india festival sale" />
+          </a>
+        </div>  
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <a href="#">
+            <img class="img-responsive" width="100%" src="images/v1/amazon_img/sale_img_3.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <a href="#">
+            <img class="img-responsive" width="100%" src="images/v1/amazon_img/sale_img_4.jpg" alt="shoes amazon great india festival sale" />
+          </a>
+        </div>    
+      </div>
+    </div>
+  </div>
+    <img class="img-responsive" width="100%" src="images/v1/amazon_img/discount_sale.jpg" alt="backpacks amazon great india festival sale" />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-8 col-xs-12">
+        <h1 class="amazon_great_indian_festival_heading">Amazon | The Great Indian Festival Sale</h1>
+        <div class="amazon_great_indian_festival_content">
+          The Great Indian Festival Sale from Amazon is a ringer that Festive season is round the corner. Amazon has emerged as the biggest E-commerce company in India in recent times. With the international experience of Amazon we can be sure that the execution of the event will be smooth. Moreover, the financial muscle of Amazon may also lead to better deals for Indian consumers. Incidentally Amazon is also the manufacturer of products like Kindle , Kindle Fire and exclusive seller of mobiles like OnePlus etc This also gives the depth to the company in terms of product range. If we compare mobile phones in India we can see that there are even other exclusive only phones. However Amazon is the clear winner in this strategy. Barring very few all the latest mobiles in India are found on Amazon. Amazon started the business from online books shopping and still remain clear winner when users shop for books online. On the upcoming sale consumers can get additional discounts by using their HDFC Credit or Debit cards. 
+        </div>
+        <h5><b>We all anxiously wait for the Amazon's Great Indian Festival Sale from 1st Oct - 5th Oct.</b></h5>
+      </div>    
+      <div class="col-md-5 col-sm-4 col-xs-12">
+        <a target="_blank" href="http://www.amazon.in/b/ref=s9_acss_bw_cg_IMC2More_1a1?node=11368380031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-11&tag=indiashopps-21">
+          <img class="img-responsive" width="100%" src="images/v1/amazon_img/gifts_sale.jpg" alt="" />
+          </a>
+      </div>    
+    </div>
+  </div>
+</div>
+   @endsection
+   @section('script')
+   
+   <style type="text/css">
+    .amazon_great_bg {
+    background: #e9e3fd none repeat scroll 0 0;
+  }
+  .amazon_great_indian_festival_heading{
+    color: #d70d00;
+    font-size: 27px;
+  }
+  .amazon_great_indian_festival_content{
+    color: #999;
+    font-size: 15px;
+  }
+   </style>
+   @endsection
+@endif

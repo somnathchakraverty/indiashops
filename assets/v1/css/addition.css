@@ -1,0 +1,140 @@
+/* 
+ *  Core Owl Carousel CSS File
+ * v1.3.2
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+ content: ".";
+ display: block;
+ clear: both;
+ visibility: hidden;
+ line-height: 0;
+ height: 0;
+}
+/* display none until init */
+.owl-carousel{
+ display: none;
+ position: relative;
+ width: 100%;
+ -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+ display: none;
+ position: relative;
+ -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+ -webkit-transition: height 500ms ease-in-out;
+ -moz-transition: height 500ms ease-in-out;
+ -ms-transition: height 500ms ease-in-out;
+ -o-transition: height 500ms ease-in-out;
+ transition: height 500ms ease-in-out;
+}
+ 
+.owl-carousel .owl-item{
+ float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+ cursor: pointer;
+}
+.owl-controls {
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(../img/grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/* boostrap */
+.col-sm-12,
+.col-xs-12,
+.col-md-12,
+.col-lg-12{
+float: left;}
+
+/* back-top */
+  .back-top{
+    position: fixed;
+	right: 25px;
+	bottom: 25px;
+	overflow: hidden;
+	z-index: 9999;}
+  .back-top a{
+    background: #d70d00;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	text-align: center;
+	color: #fff!important;
+	font-family: 'FontAwesome';
+	-webkit-transition: background 300ms ease;
+	-moz-transition: background 300ms ease;
+	-ms-transition: background 300ms ease;
+	-o-transition: background 300ms ease;
+	transition: background 300ms ease;}
+  .back-top a:after{
+    content: "\f102";
+	font-family: "FontAwesome";
+	display: inline;
+	font-size: 20px;}
+  .back-top a:hover{
+	color: #fff!important;
+    background: #333;}
+  .back-top a:focus{
+    text-decoration: none;}
+@media(max-width: 768px){
+
+	.back-top{
+	right: 15px !important;
+	bottom: 15px !important;}
+}
+/* scroll menu 
+@media(min-width: 1200px){
+	.scroll-menu{
+	position: fixed;
+	background: rgba(255, 255, 255, 0.7);
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index:9999;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(153,153,153,0.5);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(153,153,153,0.5);
+	box-shadow: 0px 3px 5px 0px rgba(153,153,153,0.5);
+	-webkit-transition: background 300ms ease;
+	-moz-transition: background 300ms ease;
+	-ms-transition: background 300ms ease;
+	-o-transition: background 300ms ease;
+	transition: background 300ms ease;}
+	.scroll-menu .megamenu{
+	max-width: 1170px;
+	margin: 0 auto;
+	border-bottom: 0;
+	background: transparent;}
+	.scroll-menu:hover{
+	background: rgba(255, 255, 255, 1);}
+} */

@@ -1,0 +1,28 @@
+.coufullbox{width:100%;position:relative;border-radius:4px;background:#fff;margin-top:17px;padding:20px;display:inline-block;overflow:hidden;clear:both;box-shadow:0 1px 3px 0 rgba(0,0,0,0.1)}
+.coufullbox:hover{width:100%;border-radius:4px;background:#fffdfd;box-shadow:0 1px 3px 0 rgba(0,0,0,0.1)}
+.cou_cont{width:100%;overflow:hidden}
+.coudis{opacity:.7;font-size:16px;font-weight:700;font-style:normal;font-stretch:normal;line-height:20px;letter-spacing:normal;text-align:center;color:#60b800}
+.coudis span{text-transform:uppercase;opacity:.7;display:block;font-size:16px;font-weight:300;font-style:normal;font-stretch:normal;text-align:center;color:#000}
+.con_part{width:62%;float:left;}
+.couofrbox{background:#f7f7f7;width:100px;height:100px;margin:auto;float:left;border:1px dashed #d6d6d6;border-radius:50%;margin:10px 40px 10px 0;align-items:center;display:flex;justify-content:center}
+.couofrbox{background:#f7f7f7;width:100px;height:100px;margin:auto;float:left;border:1px dashed #d6d6d6;border-radius:50%;margin:10px 40px 10px 0;align-items:center;display:flex;justify-content:center}
+.cou_venr{background:#fff!important;width:110px!important;height:60px!important;border-radius:4px!important;padding:5px;margin:32px 0px 0px 0px!important;float:right!important;overflow:hidden;}
+.vndr_im{max-width:110px!important;}
+.cou_name{width:100%;font-size:17px;line-height:25px;margin-top:15px;display:inline-block;text-align:left;color:#000;font-weight:700}
+.go-cbt{margin-top:10px;display:inline-block;font-size:14px;color:#000;font-weight:700}
+.go-cbt span{font-size:14px;color:#000;font-weight:500}
+.cou_butto{display:inline-block;width:160px;height:36px;margin:auto;line-height:36px;border-radius:2px;background-color:#fff;border:solid 1px #8ecb4b;font-size:12px;font-weight:700;text-align:center;text-transform:uppercase;color:#8ecb4b}
+.cou_butto:hover{background:#ff4631;color:#fff;border:solid 1px #ff4631}
+.view_butto{display:inline-block;width:160px;height:36px;margin:auto;line-height:36px;border-radius:2px;background:#ff4631;font-size:12px;font-weight:700;text-align:center;text-transform:uppercase;color:#fff}
+.view_butto:hover{background:#000;color:#fff}
+.heading{font-size:16px;font-weight:700}
+.coutwobutto{margin:auto;width:100%;text-align:center;margin-top:15px}
+.card-block{width:100%;position:relative;clear:both;display:inline-block;padding:20px 0;border-top:1px solid #e4e4e4;margin-top:10px}
+.pros{margin:10px 0 10px 15px;padding:0}
+.pros ul{margin:0;padding:0;display:block}
+.pros ul li{margin:0;padding:0;font-size:14px;color:rgba(51,51,51,0.87);line-height:26px;font-weight:700;list-style:disc}
+.clebutton{font-size:20px;margin:0;clear:both;width:30px;height:30px;line-height:32px;text-align:center;background:#ff4631;font-weight:700;color:#fff;overflow:hidden;border-radius:50%;position:absolute;right:0;top:10px}
+.clebutton:hover{background:#000;color:#fff}
+.cou_list{width:100%;overflow:hidden}
+.go_hot{width:130px;height:70px;background:#ff4631;-ms-transform:rotate(40deg);-webkit-transform:rotate(40deg);transform:rotate(40deg);position:absolute;right:-46px;text-align:center;top:-20px;padding-top:47px;color:#fff;font-weight:700;text-transform:uppercase;font-size:14px}
+.brd_sear{width:240px!important;}

@@ -1,0 +1,14 @@
+<OpenSearchDescription>
+    <ShortName>IndiaShopps</ShortName>
+    <Description>IndiaShopps:Discover Your Desireable Product at Best Prices in India, Compare and Buy Online</Description>
+    <Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?output=firefox&amp;q={searchTerms}"/>
+    <Url type="text/html" template="https://www.indiashopps.com/search/0/{searchTerms}" method="GET"/>
+    <Url type="application/opensearchdescription+xml" rel="self" template="/indiashopps_osd.xml"/>
+    <LongName>IndiaShopps Search</LongName>
+    <Image height="16" width="16" type="image/png">https://www.indiashopps.com/assets/v3/images/favicon.png</Image>
+    <AdultContent>false</AdultContent>
+    <Language>en</Language>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <InputEncoding>UTF-8</InputEncoding>
+    <SearchForm>https://www.indiashopps.com</SearchForm>
+</OpenSearchDescription>

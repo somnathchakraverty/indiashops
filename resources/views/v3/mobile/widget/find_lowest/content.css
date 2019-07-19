@@ -1,0 +1,10 @@
+/*THE-Find lowest price for anything*/
+.findlowest{margin-top:26px;padding:0}
+.findlowest h1{display:inline-block;font-size:24px;text-align:left;color:#1f2228;font-weight:700}
+.categorilist{display:block}
+.categorilistbox{margin-top:10px;padding:22px;border-radius:4px;background-color:#fff;box-shadow:0 1px 3px 0 rgba(0,0,0,0.1);overflow:hidden;}
+.categorilist ul{display:block;margin:0;padding:0}
+.categorilist ul li{display:inline-block;list-style:none;width:166px;text-align:center;font-size:16px;text-align:center;color:#1f2228}
+.categorilist ul li span{width:166px;text-align:center;margin-top:15px;display:block;font-weight:700}
+.categorilist ul li:hover{text-align:center;color:#ff4631}
+/*END-Find lowest price for anything*/

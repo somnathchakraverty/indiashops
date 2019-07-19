@@ -1,0 +1,6 @@
+/*THE-Top Deals on gadgets*/
+.nav-tabs{border-bottom:none}
+.nav-tabs > li.active > a,.nav-tabs > li.active > a:hover,.nav-tabs > li.active > a:focus{cursor:default;border:none;background:none;padding-bottom:3px;border-bottom:2px solid #0fc9da;font-size:14px;font-weight:700;text-align:left;color:#0fc9da}
+.nav-tabs > li > a{cursor:default;border:none;background:none;font-size:14px;font-weight:700;text-align:left;color:#1f2228}
+.nav-tabs > li > a:hover{cursor:pointer;border:none;background:none;font-size:14px;font-weight:700;text-align:left;color:#1f2228}
+/*END-Top Deals on gadgets*/

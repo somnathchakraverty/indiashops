@@ -1,0 +1,500 @@
+<?php
+  $cur_url = Request::url();
+  if( empty( $c_name ) )
+   $c_name = "";
+?>
+@if ( !isset($ajax) )
+@extends('v1.layouts.master')
+@section('meta')
+  <meta name="news_keywords" content="amazon great india sale, amazon india sale, amazon prime, internet, sale, shopping sale"/>
+  <meta name="taboola:title" content="Amazon Great India Sale Starts August 8; Prime Members Will Get Early Access to Deals"/>
+  <link rel="canonical" href="{{Request::URL()}}"/>
+  <meta name="description" content="Amazon India has announced that its Great India Sale will take place from August 8-10 and will give an early-access to its Prime members."/>
+  <?php if( $book ):?>
+     <link rel="alternate" href="android-app://com.indiashopps.android/indiashopps/store--c--<?=$scat?>--576" />
+  <?php else: ?>
+     <link rel="alternate" href="android-app://com.indiashopps.android/indiashopps/store--c--<?=$scat?>" />
+  <?php endif; ?>
+@endsection
+@section('content')
+<div class="container-fliud">
+	 <div class="amazon_slider">
+		<img class="img-responsive" src="http://www.indiashopps.com/images/amazon_slider.jpg" alt="" />
+	</div>
+</div>
+	<!--==============All product=============-->	
+<div class="container">
+	<div class="row" style="margin-top:10px;">
+		<div class="col-sm-3 hidden-xs">
+			<div id="wrapper">
+				<div id="sidebar-wrapper">
+					<div id="wrapper1" >
+						<div id="scroller1"  >
+							<div id="sidebar">
+								<div id='product-left-fixed-menu'>
+									<ul>
+										<li class='active has-sub'><a href='#'>Gender</a>
+											<ul>
+											  <div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+											  </div>
+											  <div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+											  </div>
+											  <div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+											  </div>
+											  <div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+											  </div>
+											</ul>
+										</li>
+										<li class='active has-sub'><a href='#'>Category</a>
+											<ul>
+												<li><a href="#">Clothing</a></li>
+												<li><a href="#">Shoes</a></li>
+												<li><a href="#">Jewellery</a></li>
+												<li><a href="#">Jewellery</a></li>
+												<li><a href="#">Jewellery</a></li>
+												<li><a href="#">Jewellery</a></li>
+											  </ul>
+										</li>
+										<li class='active has-sub'><a href='#'>Offers</a>
+											<ul>
+												<div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+												</div>
+												<div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+												</div>
+												<div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+												</div>
+												<div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+												</div>
+											</ul>
+										</li>
+										<li class='active has-sub'><a href='#'>Brand</a>
+											<ul>
+												<div id="custom-search-input">
+													<div class="input-group col-md-12">
+														<input type="text" class="form-control " placeholder="Brand" />
+															<span class="input-group-btn">
+																<button class="btn btn-info btn-lg" type="button">
+																	<i class="glyphicon glyphicon-search"></i>
+																</button>
+															</span>
+													</div>
+												</div>
+												<div class="checkbox">
+													<label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+												</div>
+												<div class="checkbox">
+													<label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+												</div>
+												<div class="checkbox">
+													<label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+												</div>
+												<div class="checkbox">
+													<label class="fix-slide-checkbox"><input type="checkbox" value="">Women [48651]</label>
+												</div>
+											</ul>
+										</li>
+										<li class='active has-sub'><a href='#'>Price</a>
+											<ul>
+												<div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">below 500 [4342]</label>
+												</div>
+												<div class="checkbox">
+													<label class="fix-slide-checkbox"><input type="checkbox" value="">500-999 [12695]</label>
+												</div>
+												<div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">1000-1999 [12033]</label>
+												</div>
+												<div class="checkbox">
+													<label class="fix-slide-checkbox"><input type="checkbox" value="">2000-2999 [4154]</label>
+												</div>
+											</ul>
+										</li>
+										<li class='active has-sub'><a href='#'>Discounts</a>
+											<ul>
+												<div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">2000-2999 [4154]</label>
+												</div>
+												<div class="checkbox">
+												  <label class="fix-slide-checkbox"><input type="checkbox" value="">2000-2999 [4154]</label>
+												</div>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>	
+						</div> <!-- / panel-group -->
+					</div> <!-- /col-md-4 -->
+				</div>  
+			</div>
+		</div>
+<!-------------------right------------------------>			
+	<div class="col-sm-9 col-xs-12" id="right-container">
+	<!-----------------right category---------------------->
+		<div class="great_indian_sale block_product">
+			<div class="title_block">
+			<h3>Great Indian Sale</h3>
+				<div class="navi">
+					<a class="prevtab">
+						<i class="fa fa-angle-left"></i>
+					</a>
+					<a class="nexttab">
+						<i class="fa fa-angle-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="block_content">
+				<div class="row_edited">
+					<div class="great_deals slider_product">
+					<!---------item 1-------->
+					<div class="item_out">
+						<div class="item">
+							<div class="home_tab_img">
+								<a class="product_img_link" href="#" title="#" itemprop="url">
+									<img src="images/micromax-canvas-evok-e483-400x400-imaege5g6rm8wmsw.jpeg" alt="" class="img-responsive product-item-img" />
+								</a>
+								<a title="Quick view" class="quick-view hidden-xs hidden-sm" href="#">
+									<i class="icon-eye"></i>Quick view
+								</a>
+							</div>
+							<div class="home_tab_info">
+								<a class="product-name" href="#" title="Faded Short Sleeves T-shirt">Faded Short Sleeves T-shirt
+								</a>
+								<div class="row">
+									<div class="col-md-6  btn-product">
+										<del>Rs. 1,995</del>
+									</div>
+									<div class="col-md-6  btn-product">
+										<a href="#">Rs.759</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item_out">
+						<div class="item">
+							<div class="home_tab_img">
+								<a class="product_img_link" href="#" title="#" itemprop="url">
+									<img src="images/micromax-canvas-evok-e483-400x400-imaege5g6rm8wmsw.jpeg" alt="" class="img-responsive product-item-img" />
+								</a>
+								<a title="Quick view" class="quick-view hidden-xs hidden-sm" href="#">
+									<i class="icon-eye"></i>Quick view
+								</a>
+							</div>
+							<div class="home_tab_info">
+								<a class="product-name" href="#" title="Faded Short Sleeves T-shirt">Faded Short Sleeves T-shirt
+								</a>
+								<div class="row">
+									<div class="col-md-6  btn-product">
+										<del>Rs. 1,995</del>
+									</div>
+									<div class="col-md-6  btn-product">
+										<a href="#">Rs.759</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item_out">
+						<div class="item">
+							<div class="home_tab_img">
+								<a class="product_img_link" href="#" title="#" itemprop="url">
+									<img src="images/micromax-canvas-evok-e483-400x400-imaege5g6rm8wmsw.jpeg" alt="" class="img-responsive product-item-img" />
+								</a>
+								<a title="Quick view" class="quick-view hidden-xs hidden-sm" href="#">
+									<i class="icon-eye"></i>Quick view
+								</a>
+							</div>
+							<div class="home_tab_info">
+								<a class="product-name" href="#" title="Faded Short Sleeves T-shirt">Faded Short Sleeves T-shirt
+								</a>
+								<div class="row">
+									<div class="col-md-6  btn-product">
+										<del>Rs. 1,995</del>
+									</div>
+									<div class="col-md-6  btn-product">
+										<a href="#">Rs.759</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item_out">
+						<div class="item">
+							<div class="home_tab_img">
+								<a class="product_img_link" href="#" title="#" itemprop="url">
+									<img src="images/micromax-canvas-evok-e483-400x400-imaege5g6rm8wmsw.jpeg" alt="" class="img-responsive product-item-img" />
+								</a>
+								<a title="Quick view" class="quick-view hidden-xs hidden-sm" href="#">
+									<i class="icon-eye"></i>Quick view
+								</a>
+							</div>
+							<div class="home_tab_info">
+								<a class="product-name" href="#" title="Faded Short Sleeves T-shirt">Faded Short Sleeves T-shirt
+								</a>
+								<div class="row">
+									<div class="col-md-6  btn-product">
+										<del>Rs. 1,995</del>
+									</div>
+									<div class="col-md-6  btn-product">
+										<a href="#">Rs.759</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item_out">
+						<div class="item">
+							<div class="home_tab_img">
+								<a class="product_img_link" href="#" title="#" itemprop="url">
+									<img src="images/micromax-canvas-evok-e483-400x400-imaege5g6rm8wmsw.jpeg" alt="" class="img-responsive product-item-img" />
+								</a>
+								<a title="Quick view" class="quick-view hidden-xs hidden-sm" href="#">
+									<i class="icon-eye"></i>Quick view
+								</a>
+							</div>
+							<div class="home_tab_info">
+								<a class="product-name" href="#" title="Faded Short Sleeves T-shirt">Faded Short Sleeves T-shirt
+								</a>
+								<div class="row">
+									<div class="col-md-6  btn-product">
+										<del>Rs. 1,995</del>
+									</div>
+									<div class="col-md-6  btn-product">
+										<a href="#">Rs.759</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item_out">
+						<div class="item">
+							<div class="home_tab_img">
+								<a class="product_img_link" href="#" title="#" itemprop="url">
+									<img src="images/micromax-canvas-evok-e483-400x400-imaege5g6rm8wmsw.jpeg" alt="" class="img-responsive product-item-img" />
+								</a>
+								<a title="Quick view" class="quick-view hidden-xs hidden-sm" href="#">
+									<i class="icon-eye"></i>Quick view
+								</a>
+							</div>
+							<div class="home_tab_info">
+								<a class="product-name" href="#" title="Faded Short Sleeves T-shirt">Faded Short Sleeves T-shirt
+								</a>
+								<div class="row">
+									<div class="col-md-6  btn-product">
+										<del>Rs. 1,995</del>
+									</div>
+									<div class="col-md-6  btn-product">
+										<a href="#">Rs.759</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>    
+  	
+	<!-----------------Product 1---------------------->
+	<h1 class="great_deals_heading">Great Indian Sale</h1>
+	<hr>  
+	<div class="row">
+<!-----------------product1------------------>
+		<div class="col-md-4 col-sm-6 product">
+			<div class="thumbnail product-items" >
+				<div class="row">
+					<div class="col-sm-8 col-xs-8">
+						<span class="label label-success product-disc">70% off</span>
+					</div>
+				</div>
+				<a href="#"><img src="images/micromax-canvas-evok-e483-400x400-imaege5g6rm8wmsw.jpeg" class="img-responsive"></a>
+				<div class="caption">
+					<div class="product-title">
+						<a>American Swan White Chinese Collar Shirts </a>
+					</div>
+					<div class="row">
+						<div class="col-md-6  btn-product">
+							<del>Rs. 1,995</del>
+						</div>
+						<div class="col-md-6  btn-product">
+							<a href="#">Rs.759</a>
+						</div>
+							<div class=" col-md-12 deals_time_end">
+								<span><b>Ends in</b></span>
+								<span>17:21:44</span>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-----------------product2------------------>
+		<div class="col-md-4 col-sm-6 product">
+			<a href="" >
+				<div class="thumbnail product-items" >
+					<div class="row">
+						<div class="col-sm-8 col-xs-8">
+							<span class="label label-success product-disc">70% off</span>
+						</div>
+					</div>
+					<a href="#"><img src="images/micromax-canvas-evok-e483-400x400-imaege5g6rm8wmsw.jpeg" class="img-responsive"></a>
+					<div class="caption">
+						<div class="product-title">
+							<a>American Swan White Chinese Collar Shirts </a>
+						</div>
+						<div class="row">
+							<div class="col-md-6  btn-product">
+								<del>Rs. 1,995</del>
+							</div>
+							<div class="col-md-6  btn-product">
+								<a href="#">Rs.759</a>
+							</div>
+							<div class=" col-md-12 deals_time_end">
+								<span><b>Ends in</b></span>
+								<span>17:21:44</span>
+							</div>
+						</div>
+					 </div>
+				</div>
+			</a>
+		</div>			
+<!-----------------product3------------------>
+		<div class="col-sm-4 col-md-4 col-sm-6 product">
+			<a href="">
+				<div class="thumbnail product-items" >
+					<div class="row">
+						<div class="col-sm-8 col-xs-8">
+							<span class="label label-success product-disc">70% off</span>
+						</div>
+					</div>
+					<a href="#"><img src="images/micromax-canvas-evok-e483-400x400-imaege5g6rm8wmsw.jpeg" class="img-responsive"></a>
+					<div class="caption">
+						<div class="product-title">
+							<a>American Swan White Chinese Collar Shirts </a>
+						</div>
+						<div class="row">
+							<div class="col-md-6  btn-product">
+								<del>Rs. 1,995</del>
+							</div>
+							<div class="col-md-6  btn-product">
+								<a href="#">Rs.759</a>
+							</div>
+							<div class=" col-md-12 deals_time_end">
+								<span><b>Ends in</b></span>
+								<span>17:21:44</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>			
+
+		</div>		
+	</div>
+</div>
+</div>
+
+ 
+
+<script type="text/javascript">
+    $( document ).ready(function(){
+        $(document).on("mouseenter",".product-item",function(){
+            $(this).addClass("hovered");
+        });
+        $(document).on("mouseleave",".product-item",function(){
+            $(this).removeClass("hovered");
+        });
+    })
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    var great_deals = $(".great_deals");
+        great_deals.owlCarousel({
+            items: 4,
+            itemsDesktop: [1199, 4],
+            itemsDesktopSmall: [991, 3],
+            itemsTablet: [767, 2],
+            itemsMobile: [480, 1],
+            autoPlay: true,
+            stopOnHover: false,
+            addClassActive: true,
+         });
+
+        // Custom Navigation Events
+		$(".great_indian_sale .nexttab").click(function() {
+            great_deals.trigger('owl.next');
+         })
+        $(".great_indian_sale .prevtab").click(function() {
+             great_deals.trigger('owl.prev');
+        })
+	}); 
+						
+</script>
+
+
+
+<style type="text/css">
+.product-items{ position: relative;  }
+   .product-items .show-more{ opacity: 0; position: absolute; top: 90%; margin-top: 0px; }
+   .hovered .show-more {
+     z-index: 9;
+     background: #fff;
+     left: -1px;
+     opacity: 1;
+     margin-top: -4px;
+     width: 100.4%;
+     border: 1px solid #dddddd;
+     border-top: none;
+     padding: 10px;
+     -moz-transition: opacity .2s ease-in-out;
+   -o-transition: opacity .2s ease-in-out;
+   -webkit-transition: opacity .2s ease-in-out;
+   transition: opacity .2s ease-in-out;
+     top: 101%!important;
+   }
+   .product-items:hover
+   {
+   -webkit-box-shadow: 0px -4px 23px -10px rgba(215, 13, 0, 0.37);
+   -moz-box-shadow: 0px -4px 23px -10px rgba(215, 13, 0, 0.37);
+   box-shadow: 0px -4px 23px -10px rgba(215, 13, 0, 0.37);
+   }
+   .product-item:hover
+   {
+   -webkit-box-shadow: 0px 0px 23px -10px rgba(215, 13, 0, 0.37);
+   -moz-box-shadow: 0px 0px 23px -10px rgba(215, 13, 0, 0.37);
+   box-shadow: 0px 0px 23px -10px rgba(215, 13, 0, 0.37);
+   }
+   .hovered .show-more
+   {
+   -webkit-box-shadow: 0px 13px 23px -10px rgba(215, 13, 0, 0.37);
+   -moz-box-shadow: 0px 13px 23px -10px rgba(215, 13, 0, 0.37);
+   box-shadow: 0px 13px 23px -10px rgba(215, 13, 0, 0.37);
+   }
+   .great_deals_heading{color: #d70d00;
+    font-size: 17px;}
+	
+	.product-items {
+    height: 350px;
+}
+.deals_time_end {
+    background: #d70d00 none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    left: 0;
+    margin-top: 10px;
+    padding: 10px;
+    position: absolute;
+    width: 100%;}
+</style>
+</body>
+</html>
